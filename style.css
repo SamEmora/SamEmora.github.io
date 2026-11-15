@@ -40,3 +40,14 @@ h3{font-size:1.35rem;margin:0 0 8px}
 iframe.doc{width:100%;height:900px;border:1px solid var(--line);border-radius:6px;background:#fff}
 footer{max-width:1200px;margin:auto;color:var(--muted);padding:32px 24px;border-top:1px solid var(--line);font-size:.85rem}
 @media(max-width:760px){.triptych{grid-template-columns:1fr;height:auto}.p1,.p3{height:120px}.p2{height:380px}.split{grid-template-columns:1fr}}
+.project{padding:56px 0;border-top:1px solid var(--line)}
+.project:first-of-type{border-top:0}
+.project-head{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:end;margin-bottom:28px}
+.project-head h2{margin:6px 0 0}
+.slides{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:12px}
+.slides img{flex:0 0 min(78%,560px);scroll-snap-align:start;border-radius:6px;border:1px solid var(--line);aspect-ratio:16/9;object-fit:cover}
+.reflect{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:24px;margin-top:28px}
+.reflect h3{font-size:1.1rem}
+.reflect p{margin:0;color:#3d3c38}
+.todo{color:var(--accent)}
+@media(max-width:760px){.project-head{grid-template-columns:1fr;gap:8px}}
