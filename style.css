@@ -51,3 +51,8 @@ footer{max-width:1200px;margin:auto;color:var(--muted);padding:32px 24px;border-
 .reflect p{margin:0;color:#3d3c38}
 .todo{color:var(--accent)}
 @media(max-width:760px){.project-head{grid-template-columns:1fr;gap:8px}}
+.docs{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+.docs figure{margin:0}
+.docs img{width:100%;border:1px solid var(--line);border-radius:6px;box-shadow:0 8px 24px rgba(20,20,19,.06);background:#fff}
+.docs figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
+@media(max-width:760px){.docs{grid-template-columns:1fr}}
